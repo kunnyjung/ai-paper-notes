@@ -1,4 +1,3 @@
-# AI Systems Evolution Notes
 
 This repository contains my personal notes while studying the evolution of modern LLMs, retrieval systems, agent architectures, and reasoning models.
 
