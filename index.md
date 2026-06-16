@@ -1,5 +1,3 @@
-# AI Systems Evolution Notes
-
 Personal notes and reviews on modern AI systems.
 
 This site is maintained as a personal study journal while exploring the evolution of Large Language Models (LLMs), Retrieval Systems, Agent Architectures, and Reasoning Models.
