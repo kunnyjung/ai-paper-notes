@@ -47,7 +47,7 @@ What impact did it have on future research, open-source models, or production sy
 
 ### Foundation Models
 
-#### LLaMA
+#### [LLaMA](papers/llama.md)
 
 Understanding the design choices that became the foundation of many modern open-source LLMs.
 
