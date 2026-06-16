@@ -1,9 +1,3 @@
----
-
-layout: home
-title: AI Papers Notes
-----------------------
-
 # AI Systems Evolution Notes
 
 Personal notes and reviews on modern AI systems.
