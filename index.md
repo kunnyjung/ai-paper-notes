@@ -30,7 +30,7 @@ https://kunnyjung.github.io
 
 ## Latest Notes
 
-* [LLaMA](_posts/llama.md)
+* [LLaMA](_posts/2026-06-16-llama.md)
 
 ---
 
