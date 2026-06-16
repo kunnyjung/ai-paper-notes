@@ -1,44 +1,30 @@
+# AI Papers Notes
 
-This repository contains my personal notes while studying the evolution of modern LLMs, retrieval systems, agent architectures, and reasoning models.
+Personal notes and reviews while studying the evolution of modern AI systems.
 
-The goal is not to summarize papers section by section.
+This repository was created as a personal study journal to organize my understanding of Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Agent Systems, and Reasoning Models.
 
-Instead, I focus on understanding:
+The purpose of these notes is not to provide complete paper summaries or reproduce every detail from the original papers. Instead, I aim to understand why a paper was proposed, what problem it was trying to solve, how the core idea works, and what impact it had on later research and production systems.
 
-* What problem the paper was trying to solve
-* Why the idea was necessary at the time
-* How the method works in practice
-* What impact it had on later research and production systems
+Whenever possible, I try to explain ideas intuitively and avoid excessive mathematical notation. The goal is to make the core concepts understandable even to someone encountering them for the first time.
 
-Most reviews are written from the perspective of an engineer trying to understand the intuition behind the idea rather than reproduce every equation in the paper.
+These reviews are primarily written for my own study, reference, and long-term knowledge organization.
+
+---
+
+**Author:** kunnyjung
+**Role:** Senior AI Scientist
+
+📧 **Email:** [kunnyjung96@gmail.com](mailto:kunnyjung96@gmail.com)
+
+🔗 **LinkedIn:**
+https://www.linkedin.com/in/kyungkeon-chung-634737224
 
 ---
 
 ## Review Structure
 
-Each paper is reviewed using the following format:
-
-### 1. Problem
-
-What limitation or bottleneck existed before this paper?
-
-### 2. Motivation
-
-Why was a new approach needed?
-
-Why were previous methods insufficient?
-
-### 3. Method
-
-How does the proposed idea work?
-
-The focus is on intuition and practical understanding rather than mathematical derivations.
-
-### 4. Key Takeaways
-
-What is the most important thing to remember from this paper?
-
-What impact did it have on future research, open-source models, or production systems?
+Each review focuses on the problem a paper was trying to solve, why the proposed idea was necessary, how the method works in practice, and what lessons or impacts are worth remembering. Rather than diving deeply into mathematical derivations, I prefer intuitive explanations, practical examples, and personal observations that help connect the paper to modern AI systems.
 
 ---
 
@@ -46,86 +32,40 @@ What impact did it have on future research, open-source models, or production sy
 
 ### Foundation Models
 
-#### [LLaMA](papers/llama.md)
-
-Understanding the design choices that became the foundation of many modern open-source LLMs.
-
-#### RoFormer
-
-Understanding Rotary Position Embedding (RoPE), one of the key components adopted by LLaMA and many later models.
-
----
+* [LLaMA](papers/llama.md)
+* RoFormer
 
 ### Parameter-Efficient Fine-Tuning
 
-#### LoRA
-
-Understanding why full fine-tuning became impractical and how low-rank adaptation changed LLM customization.
-
-#### QLoRA
-
-Understanding how large models can be fine-tuned on consumer GPUs through quantization.
-
----
+* LoRA
+* QLoRA
 
 ### Efficient Inference
 
-#### FlashAttention
-
-Understanding how attention computation became dramatically faster and more memory efficient.
-
-#### vLLM
-
-Understanding the serving system innovations behind modern LLM inference.
-
----
+* FlashAttention
+* vLLM
 
 ### Alignment
 
-#### InstructGPT
-
-Understanding how instruction-following models emerged beyond pure next-token prediction.
-
-#### DPO
-
-Understanding alignment without reinforcement learning.
-
-#### GRPO
-
-Understanding recent reinforcement-learning approaches used in reasoning models.
-
----
+* InstructGPT
+* DPO
+* GRPO
 
 ### Retrieval Systems
 
-#### RAG
-
-Understanding how external knowledge can be incorporated into LLMs.
-
-#### GraphRAG
-
-Understanding why graph structures can improve retrieval quality and reasoning.
-
----
+* RAG
+* GraphRAG
 
 ### Agent Systems
 
-#### ReAct
-
-Understanding how reasoning and tool usage can be combined within a single framework.
-
-#### MemGPT
-
-Understanding memory management for long-running AI agents.
-
----
+* ReAct
+* MemGPT
 
 ### Reasoning Models
 
-#### DeepSeek-R1
-
-Understanding how reinforcement learning can improve reasoning ability in modern LLMs.
+* DeepSeek-R1
 
 ---
 
-This repository assumes familiarity with the Transformer architecture and self-attention mechanisms. Therefore, "Attention Is All You Need" is not covered directly, and later papers are reviewed from the perspective of someone already familiar with the Transformer foundation.
+This repository assumes familiarity with the Transformer architecture and self-attention mechanisms. Therefore, *Attention Is All You Need* is not covered directly, and later papers are reviewed from the perspective of someone already familiar with the Transformer foundation.
+
